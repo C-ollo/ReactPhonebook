@@ -8,9 +8,10 @@ function createCard(contact) {
     <Card
       id={contact.id}
       key={contact.id}
+      img={contact.imgURL}
       name={contact.name}
       email={contact.email}
-      tel={contact.tel}
+      tel={contact.phone}
     />
   );
 }
